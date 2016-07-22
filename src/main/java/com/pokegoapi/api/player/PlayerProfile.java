@@ -10,8 +10,8 @@ import lombok.Setter;
 import java.util.HashMap;
 import java.util.Map;
 
-@Data
-public class PlayerProfile {
+
+@Data public class PlayerProfile {
 	private long creationTime;
 	private String username;
 	private Team team;
